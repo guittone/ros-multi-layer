@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<sdf version='1.5'>
+  <model name='tree3'>
+    <static>true</static>
+    <link name="tree3">
+        <collision name="collision">
+            <geometry>
+                <mesh>
+		  <scale> 1.5 1.5 10 </scale>
+                    <uri>model://tree3/meshes/model.dae</uri>	
+                </mesh>
+            </geometry>
+        </collision>
+	<visual name="visual">
+            <geometry>
+                <mesh>
+		   <scale> 1.5 1.5 10 </scale>
+                    <uri>model://tree3/meshes/model.dae</uri>
+                </mesh>
+            </geometry>
+        </visual>
+    </link>
+  </model>
+</sdf>
